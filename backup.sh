@@ -1,6 +1,6 @@
 FILES=`cat FILES`
 
-DESTDIR=`dirname $0`/conf
+DESTDIR=`dirname $0`/`hostname`/conf
 rm -fr $DESTDIR
 for FILE in $FILES;
 do
