@@ -1,0 +1,12 @@
+[Unit]
+Description=Echidna Monitoring
+
+[Service]
+User=echidna
+EnvironmentFile=/etc/systemd/conf.d/echidna
+ExecStart=/home/echidna/.nvm/v0.8.19/bin/node /home/echidna/echidna-monitoring/app.js
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target

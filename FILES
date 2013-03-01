@@ -1,0 +1,15 @@
+/etc/redis/redis.conf
+/etc/rsyslog.conf
+/etc/sysctl.conf
+/etc/systemd/conf.d/echidna
+/etc/systemd/system/echidna-api.service
+/etc/systemd/system/echidna-dicts.service
+/etc/systemd/system/echidna-trends.service
+/etc/systemd/system/echidna-worker.service
+/etc/systemd/system/echidna-monitoring.service
+/etc/systemd/system/nginx.service
+/etc/systemd/system/syslog.service
+/home/echidna/nginx/conf/mime.types
+/home/echidna/nginx/conf/nginx.conf
+/home/echidna/.bash_profile
+/etc/systemd/systemd-journald.conf
