@@ -1,0 +1,12 @@
+[Unit]
+Description=Echidna Deploy
+
+[Service]
+User=rngadam
+EnvironmentFile=/etc/systemd/conf.d/echidna
+ExecStart=/home/rngadam/.nvm/v0.8.19/bin/node /home/rngadam/echidna-deploy/server.js
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target
