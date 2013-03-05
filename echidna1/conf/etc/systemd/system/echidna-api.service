@@ -5,7 +5,7 @@ Requires=echidna-dicts.service
 [Service]
 User=echidna
 EnvironmentFile=/etc/systemd/conf.d/echidna
-ExecStart=/home/echidna/.nvm/v0.8.19/bin/node /home/echidna/echidna-api/app.js
+ExecStart=/home/echidna/.nvm/v0.8.19/bin/node /home/echidna/echidna-api/api.js
 Restart=always
 RestartSec=0
 
