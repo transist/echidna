@@ -1,12 +1,13 @@
 [Unit]
-Description=Echidna API
+Description=Echidna Spider
 
 [Service]
 User=echidna
 EnvironmentFile=/etc/systemd/conf.d/echidna
-ExecStart=/home/echidna/.nvm/v0.8.19/bin/node /home/echidna/echidna-api/api.js
+ExecStart=/home/echidna/echidna-spider/bin/launch-spider.sh
 Restart=always
 RestartSec=0
+WorkingDirectory=/home/echidna/echidna-spider
 
 [Install]
 WantedBy=multi-user.target

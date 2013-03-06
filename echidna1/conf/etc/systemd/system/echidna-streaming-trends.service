@@ -4,7 +4,7 @@ Description=Echidna historical trends interface
 [Service]
 User=echidna
 EnvironmentFile=/etc/systemd/conf.d/echidna
-ExecStart=/home/echidna/echidna-streaming/launch-trends.sh
+ExecStart=/home/echidna/echidna-streaming/bin/launch-trends.sh
 Restart=always
 RestartSec=0
 WorkingDirectory=/home/echidna/echidna-streaming

@@ -1,0 +1,13 @@
+[Unit]
+Description=Echidna Chinese Words Dictionary (app)
+
+[Service]
+User=echidna
+EnvironmentFile=/etc/systemd/conf.d/echidna
+ExecStart=/home/echidna/echidna-dicts/bin/launch-app.sh
+Restart=always
+RestartSec=0
+WorkingDirectory=/home/echidna/echidna-dicts
+
+[Install]
+WantedBy=multi-user.target

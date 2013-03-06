@@ -1,10 +1,10 @@
 [Unit]
-Description=Echidna Chinese Words Dictionary
+Description=Echidna Chinese Words Dictionary worker
 
 [Service]
 User=echidna
 EnvironmentFile=/etc/systemd/conf.d/echidna
-ExecStart=/home/echidna/echidna-dicts/launch-dicts.sh
+ExecStart=/home/echidna/echidna-dicts/bin/launch-worker.sh
 Restart=always
 RestartSec=0
 WorkingDirectory=/home/echidna/echidna-dicts
