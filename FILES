@@ -9,6 +9,7 @@
 /home/echidna/.bash_profile
 /etc/systemd/systemd-journald.conf
 /etc/systemd/system/echidna-api.service
+/etc/systemd/system/echidna-ui-server.service
 /etc/systemd/system/echidna-deploy.service
 /etc/systemd/system/echidna-dicts-app.service
 /etc/systemd/system/echidna-dicts-worker.service
