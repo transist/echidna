@@ -17,3 +17,4 @@
 /etc/systemd/system/echidna-spider.service
 /etc/systemd/system/echidna-streaming-trends.service
 /etc/systemd/system/echidna-streaming-worker.service
+/etc/apt/preferences.d/testing
