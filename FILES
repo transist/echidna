@@ -19,3 +19,4 @@
 /etc/systemd/system/echidna-streaming-worker.service
 /etc/apt/preferences.d/testing
 /etc/default/grub
+/etc/sudoers
