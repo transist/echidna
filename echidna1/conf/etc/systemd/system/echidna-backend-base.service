@@ -1,0 +1,12 @@
+[Unit]
+Description=Echidna backend base
+
+[Service]
+Type=oneshot
+User=echidna
+EnvironmentFile=/etc/systemd/conf.d/echidna
+ExecStart=/bin/echo 'Echidna backend services starting...'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,5 +1,7 @@
 [Unit]
 Description=Echidna Stream Processing server
+Requires=echidna-backend-base.service
+Wants=echidna-dicts-worker.service
 
 [Service]
 User=echidna

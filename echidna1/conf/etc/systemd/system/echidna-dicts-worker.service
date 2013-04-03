@@ -1,5 +1,6 @@
 [Unit]
 Description=Echidna Chinese Words Dictionary worker
+Requires=echidna-backend-base.service
 
 [Service]
 User=echidna

@@ -1,0 +1,13 @@
+[Unit]
+Description=Echidna backend services
+Requires=echidna-dicts-worker.service echidna-streaming-trends.service echidna-streaming-worker.service echidna-spider.service
+
+[Service]
+Type=oneshot
+User=echidna
+EnvironmentFile=/etc/systemd/conf.d/echidna
+ExecStart=/bin/echo 'Echidna backend services started'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

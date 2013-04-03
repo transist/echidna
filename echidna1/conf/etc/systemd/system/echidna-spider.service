@@ -1,5 +1,8 @@
 [Unit]
 Description=Echidna Spider
+Requires=echidna-streaming-trends.service
+After=echidna-streaming-trends.service
+Wants=echidna-streaming-worker.service
 
 [Service]
 User=echidna

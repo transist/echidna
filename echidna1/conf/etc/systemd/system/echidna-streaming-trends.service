@@ -1,5 +1,6 @@
 [Unit]
 Description=Echidna historical trends interface
+Requires=echidna-backend-base.service
 
 [Service]
 User=echidna
