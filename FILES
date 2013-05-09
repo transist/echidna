@@ -21,5 +21,6 @@
 /etc/systemd/system/nginx.service
 /etc/systemd/system/syslog.service
 /home/echidna/.bash_profile
+/home/echidna/.bashrc
 /home/echidna/nginx/conf/mime.types
 /home/echidna/nginx/conf/nginx.conf
